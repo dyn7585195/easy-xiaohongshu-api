@@ -1,0 +1,33 @@
+{
+    "name": "easy-xiaohongshu-api/easy-xiaohongshu-api",
+    "description": "小红书小程序服务端 API 的 PHP SDK",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "ext-json": "*",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "friendsofphp/php-cs-fixer": "^3.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyXiaohongshu\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EasyXiaohongshu\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "cs-fix": "vendor/bin/php-cs-fixer fix"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
