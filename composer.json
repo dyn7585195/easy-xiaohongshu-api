@@ -1,7 +1,17 @@
 {
     "name": "easy-xiaohongshu-api/easy-xiaohongshu-api",
     "description": "小红书小程序服务端 API 的 PHP SDK",
+    "version": "1.0.0",
+    "license": "MIT",
     "type": "library",
+    "keywords": ["xiaohongshu", "小红书", "sdk", "api", "miniapp"],
+    "authors": [
+        {
+            "name": "dyn7585195",
+            "email": "your-email@example.com"
+        }
+    ],
+    "homepage": "https://github.com/dyn7585195/easy-xiaohongshu-api",
     "require": {
         "guzzlehttp/guzzle": "^7.8",
         "ext-json": "*",
@@ -29,6 +39,5 @@
         "optimize-autoloader": true
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "license": "MIT"
+    "prefer-stable": true
 }
